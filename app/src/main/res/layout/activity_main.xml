@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/khatai"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoya's Kitchen"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_margin="16dp"
+        android:text= "About Us:"
+        android:layout_below="@id/logo"/>
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:text= "Fresh homemade khalifa inspired NAAN KHATAI are now in the BayArea
+Go traditional at tea parties or weddings or family events
+Book your box now!"
+        android:layout_below="@id/aboutus"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/contactinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_margin="16dp"
+        android:text= "Contact Info:"
+        android:layout_below="@id/details"/>
+
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Phone Number: 6507729536"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/contactinfo"
+        android:paddingLeft="16dp"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Email: zoyaskichenette@gmail.com"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/phonenumber"
+        android:paddingLeft="16dp"
+
+        />
+    <TextView
+        android:id="@+id/webpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "FB Page: naankhatai2020"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/email"
+        android:paddingLeft="16dp"
+
+
+</RelativeLayout>
+
+
+
+
+
